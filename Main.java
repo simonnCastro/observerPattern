@@ -18,10 +18,10 @@ public class Main {
         SubscriberList.add(oliver);
 
         NewsAgency newsAgency = new NewsAgency();
-        newsAgency.setNews("Jollibee");
+        newsAgency.setNews("This is an observer pattern!");
         newsAgency.setSubscriberList(SubscriberList);
 
-        System.out.println("Updates!");
+        System.out.println("NewsUpdates!");
         System.out.println(newsAgency.notifySubscriber());
 
         newsAgency.unSubscribe(juan);
@@ -30,7 +30,7 @@ public class Main {
         jerry.setSubscriberName("Jerry");
         newsAgency.subscribe(jerry);
 
-        System.out.println("Updates recently!");
+        System.out.println("News Updates recently!");
         System.out.println(newsAgency.notifySubscriber());
     }
 }

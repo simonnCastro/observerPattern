@@ -34,7 +34,7 @@ public class NewsAgency implements NewsAgencySubject{
         String output = new String();
         for(Subscriber subscriber : subscriberList){
             output += "Hey, " + subscriber.getSubscriberName() + "!\n";
-            output += " Today's news is" + news;
+            output += " Today's news is " + news + "\n";
         }
         return output;
     }
