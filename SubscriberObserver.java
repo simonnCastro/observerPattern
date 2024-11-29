@@ -1,3 +1,3 @@
-public interface NewsAgencyObserver{
-    
+public interface SubscriberObserver{
+
 }
